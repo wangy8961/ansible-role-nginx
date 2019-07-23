@@ -1,0 +1,6 @@
+---
+- import_tasks: install.yml
+- import_tasks: main-configure.yml
+- import_tasks: vhost-configure.yml
+- import_tasks: index-page.yml
+- import_tasks: service.yml
